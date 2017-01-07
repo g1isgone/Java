@@ -1,0 +1,21 @@
+p 9 11
+n 0 New_York 51 79
+n 1 Los_Angeles 480 75
+n 2 Chicago 88 400
+n 3 Houston 289 125
+n 4 San_Francisco 568 233
+n 5 Hawaii 321 473
+n 6 Seoul 629 321
+n 7 Guam 366 343
+n 8 Tokyo 560 410
+e 0 1 NY_to_LA 2800.0
+e 0 2 IL_to_NY 795.0
+e 1 2 IL_to_LA 2020.0
+e 2 3 TX_to_IL 1085.0
+e 0 3 1635 1635.0
+e 1 3 TX_to_LA 1550.0
+e 1 4 SF_to_LA 395.0
+e 4 3 SF_to_TX 1632.0
+e 4 6 SF_to_KR 5607.0
+e 5 7 GM_to_HI 6357.0
+e 8 5 JP_to_HI 4027.2
